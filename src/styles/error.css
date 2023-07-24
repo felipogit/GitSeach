@@ -1,0 +1,45 @@
+body{
+    background-color: var(--color-grey-4);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 156px;
+    
+}
+
+.error__title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.error__title > button{
+    width: 342px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-7);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    cursor: pointer;
+}
+
+.error__title > button:hover{
+    background-color: var(--color-brand-1);
+}
+
+.error__title > h2{
+    color: var(--color-grey-7);
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.error__title > p {
+    color: var(--color-grey-7);
+}

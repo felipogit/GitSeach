@@ -1,0 +1,103 @@
+.conteiner__principal{
+    display: flex;
+    height: 100vh;
+}
+
+.conteiner__git-search{
+    width: 50%;
+    height: 100%;
+    background-color: var(--color-brand-1);
+   
+}
+
+.conteiner__git-search > header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 37px;
+    width: 100%;
+    height: 100%;
+    padding: 0 151px;
+}
+
+.header__title > h2{
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-7);
+}
+
+.header__title > p {
+    font-size: var(--font-size-3);
+    color: var(--color-grey-7);
+    font-weight: var(--font-weight-2);
+    width: 431px;
+}
+
+.conteiner__login{
+    width: 50%;
+    height: 100%;
+    background-color: var(--color-grey-2);
+}
+
+.procurar__usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.procurar__usuario > h2 {
+    font-weight: var(--font-weight-3);
+    color: var(--color-grey-7);
+    font-size: var(--font-size-3);
+    margin-right: 163px;
+    
+}
+
+.usuario__velue{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.usuario__velue > p{
+    color: var(--color-grey-7);
+    font-size: var(--font-size-2);
+}
+
+.usuario__velue > input {
+    width: 316px;
+    height: 38px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-7);
+    padding: 0 20px;
+}
+.usuario__velue > button{
+    height: 38px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-7);
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-3);
+    cursor: pointer;
+}
+
+.perfil__button:hover{
+    background-color:var(--color-brand-1);
+}
+
+.input__velue:focus{
+    
+    outline: 0;
+    
+}
+
+
+
